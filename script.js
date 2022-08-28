@@ -1,3 +1,4 @@
+{
 const daysB = document.querySelector('#days');
 const hoursB = document.querySelector('#hours');
 const minsB = document.querySelector('#mins'); 
@@ -37,7 +38,7 @@ function formatTime(time) {
 countdown();
 
 setInterval(countdown, 1000);
-
-
+    
+}
 
   
