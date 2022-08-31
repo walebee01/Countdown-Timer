@@ -10,6 +10,7 @@ const secondsB = document.querySelector('#seconds');
 const newYears = "1 Jan 2023";
 console.log(new Date(newYears))
 
+//countdown function 
 const countdown = () => {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
