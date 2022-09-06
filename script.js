@@ -35,11 +35,11 @@ function formatTime(time) {
 }
 
 
-//initiate call
+//initiate 
 countdown();
-
 setInterval(countdown, 1000);
-    
+     
+     
 }
 
   
