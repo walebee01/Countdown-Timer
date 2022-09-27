@@ -5,8 +5,6 @@ const minsB = document.querySelector('#mins');
 const secondsB = document.querySelector('#seconds');
 
 
-
-
 const newYears = "1 Jan 2023";
 console.log(new Date(newYears))
 
@@ -38,8 +36,6 @@ function formatTime(time) {
 //initiate 
 countdown();
 setInterval(countdown, 1000);
-     
-     
 }
 
   
