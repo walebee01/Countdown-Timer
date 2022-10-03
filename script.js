@@ -4,7 +4,6 @@ const hoursB = document.querySelector('#hours');
 const minsB = document.querySelector('#mins'); 
 const secondsB = document.querySelector('#seconds');
 
-
 const newYears = "1 Jan 2023";
 console.log(new Date(newYears))
 
@@ -15,12 +14,10 @@ const countdown = () => {
 
     const totalSeconds = (newYearsDate - currentDate) / 1000;
 
-
     const days = Math.floor(totalSeconds / 3600 / 24);
     const hours = Math.floor(totalSeconds / 3600) % 24;
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
-
 
     daysB.innerHTML = days;
     hoursB.innerHTML = formatTime(hours);
@@ -32,10 +29,7 @@ function formatTime(time) {
     return time < 10 ? ('0'+ time) : time;
 }
 
-
 //initiate 
 countdown();
 setInterval(countdown, 1000);
 }
-
-  
